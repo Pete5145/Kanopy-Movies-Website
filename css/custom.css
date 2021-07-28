@@ -1,30 +1,38 @@
-body{
-    font-family: "Glegoo";
-}
-.jumbotron{
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
+.img-slider{
+    background-image: url(../images/img1.jpg);
+    background-size: cover !important;
     background-position:center;
     background-repeat: no-repeat;
     color: #fff;
-    width: 100%;
-    min-height: 300px;
-    position: relative;
+    max-width: 100%;
+    height: 700px;
+
 }
-.jumbotron .container{
-    position: relative;
-    z-index: 999999;                                     
+.logo{
+    font-family: "Playfair";
+    font-size: 3.8rem;
 }
-.jumbotron .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.7);
-}
-textarea{
-    height: 200px !important;
-    resize: none;
+.btn{
+    color: white !important;
+    font-weight: bold;
+    font-size: 15px;
+    border: 5px solid white;
     outline: none;
+    box-shadow: -1px 6px 1px -2px rgba(0,0,0,0.15);
+    margin-left: 900px !important;
+}
+.btn2{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: .9px;
+    text-decoration: none;
+    background-color: #de3f00;
+    padding: 16px 21px 13px;
+    margin-top: 29px;
+    color: white;
+    border: none;
+}
+.bg-content{
+    padding: 120px 40px;
 }
